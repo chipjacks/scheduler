@@ -1,0 +1,21 @@
+<% if current_user %>
+  <h2 class="ui header">
+    <div class="content">
+      Schedule
+      <div class="sub header">
+        Schedule an appointment with <%= current_user.coach.name %>
+      </div>
+    </div>
+  </h2>
+  <div id="elm-container"> </div>
+  <%= javascript_pack_tag "main" %>
+<% else %>
+  <h2 class="ui header">
+    <div class="content">
+      Welcome
+      <div class="sub header">
+        Please log in or sign up!
+      </div>
+    </div>
+  </h2>
+<% end %>
