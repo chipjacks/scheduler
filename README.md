@@ -2,6 +2,8 @@
 
 Rails app with Elm front-end for scheduling hour long appointments with coaches.
 
+[demo](https://hour-call-scheduler.herokuapp.com/)
+
 ## Setup
 
 ```
